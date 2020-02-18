@@ -22,6 +22,6 @@
     "importHelpers": true,
     "allowJs": true
   },
-  "include": ["src/main/webapp/app", "src/test/javascript/"],
+  "include": ["src/main/webapp/app", "node_modules/angular-bootstrap-md/**/*.ts ", "src/**/*.ts", "src/test/javascript/"],
   "exclude": ["node_modules"]
 }
