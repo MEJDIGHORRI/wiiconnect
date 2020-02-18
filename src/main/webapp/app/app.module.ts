@@ -1,5 +1,8 @@
-import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import './vendor';
 import { WiiconnectSharedModule } from 'app/shared/shared.module';
@@ -14,6 +17,8 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { PageRibbonComponent } from './layouts/profiles/page-ribbon.component';
 import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
+import { MatSliderModule } from '@angular/material/slider';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   imports: [
@@ -23,9 +28,16 @@ import { ErrorComponent } from './layouts/error/error.component';
     WiiconnectHomeModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     WiiconnectEntityModule,
-    WiiconnectAppRoutingModule
+    WiiconnectAppRoutingModule,
+    BrowserAnimationsModule,
+    MDBBootstrapModule.forRoot(),
+    FormsModule,
+    MatSliderModule,
+    FontAwesomeModule
   ],
   declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
-  bootstrap: [MainComponent]
+  bootstrap: [MainComponent],
+  schemas: [NO_ERRORS_SCHEMA],
+  providers: []
 })
 export class WiiconnectAppModule {}
