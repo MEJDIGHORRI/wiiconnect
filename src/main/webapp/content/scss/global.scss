@@ -27,6 +27,12 @@ html {
   background-size: cover;
 }
 
+nav,
+footer {
+  /*background-color: rgba(0, 0, 0, 0.0);*/
+  opacity: 0.8;
+}
+
 @media (max-width: 740px) {
   html,
   body,
@@ -109,9 +115,9 @@ Generic styles
 
 .jh-card {
   padding: 1.5%;
-  margin-top: 20px;
+  margin-top: 80px;
   border: round;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .error {
