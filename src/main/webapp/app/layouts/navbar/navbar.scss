@@ -8,6 +8,9 @@ Navbar
 .navbar-version {
   font-size: 0.65em;
 }
+.navbar-title {
+  text-shadow: 5px 5px #000000;
+}
 
 .profile-image {
   height: 1.75em;
@@ -19,6 +22,8 @@ Navbar
   padding: 0.2rem 1rem;
 
   ul.navbar-nav {
+    background-color: #212121;
+    marging-left: 0rem;
     .nav-item {
       margin-left: 0.5em;
     }
@@ -26,6 +31,7 @@ Navbar
 
   a.nav-link {
     font-weight: 400;
+    font-size: medium;
   }
 }
 
@@ -33,10 +39,11 @@ Navbar
 Logo styles
 ========================================================================== */
 .logo-img {
-  height: 45px;
-  width: 45px;
+  height: 85px;
+  width: 85px;
   display: inline-block;
-  vertical-align: middle;
-  background: url('../../../content/images/logo-jhipster.png') no-repeat center center;
+  vertical-align: bottom;
+
+  background: url('../../../content/images/logos/logo.png') no-repeat center center;
   background-size: contain;
 }
