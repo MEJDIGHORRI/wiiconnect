@@ -1,6 +1,6 @@
 <div class="row h-100">
     <div class="col-ml-3">
-        <h1 class="welcome display-1 brown-text" jhiTranslate="home.title">Welcome</h1>
+        <h1 *ngIf="!isAuthenticated()" class="welcome display-1 grey-text" jhiTranslate="home.title">Welcome</h1>
 
     </div>
 
@@ -9,4 +9,3 @@
 
     </div-->
 </div>
-
