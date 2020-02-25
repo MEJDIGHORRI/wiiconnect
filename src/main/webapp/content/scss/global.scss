@@ -12,6 +12,8 @@ Mejdi Code
 
 body,
 html {
+  padding: 0;
+  margin: 0;
   height: 100%;
 }
 .bg {
@@ -30,7 +32,7 @@ html {
 nav,
 footer {
   /*background-color: rgba(0, 0, 0, 0.0);*/
-  opacity: 0.8;
+  opacity: 1;
 }
 
 @media (max-width: 740px) {
@@ -47,6 +49,7 @@ footer {
     height: 600px;
   }
 }
+
 /* ==============================================================
 Bootstrap tweaks
 ===============================================================*/
@@ -114,8 +117,12 @@ Generic styles
 /* other generic styles */
 
 .jh-card {
+  width: 100%;
+  padding: 0rem;
+  margin: 0rem;
   position: absolute;
-  top: 15%;
+  top: 9%;
+
   border: none;
   background-color: rgba(255, 255, 255, 0);
 }
