@@ -2,11 +2,58 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 
+/*===========================================
+Mejdi Code
+=============================================*/
+
+/*body{
+  background-image: url("./images/background/background.jpg") ;
+}*/
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url('../images/backgrounds/background1.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav,
+footer {
+  /*background-color: rgba(0, 0, 0, 0.0);*/
+  opacity: 1;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header {
+    height: 600px;
+  }
+}
+
 /* ==============================================================
 Bootstrap tweaks
 ===============================================================*/
 
-body,
 h1,
 h2,
 h3,
@@ -70,9 +117,14 @@ Generic styles
 /* other generic styles */
 
 .jh-card {
-  padding: 1.5%;
-  margin-top: 20px;
+  width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+  position: absolute;
+  top: 9%;
+
   border: none;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .error {
