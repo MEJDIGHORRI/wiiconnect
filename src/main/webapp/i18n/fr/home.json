@@ -14,6 +14,23 @@
       "follow": "Suivez @jhipster sur Twitter"
     },
     "like": "Si vous aimez JHipster, donnez nous une étoile sur",
-    "github": "GitHub "
+    "github": "GitHub ",
+    "zones": {
+      "livingroom": "Séjour",
+      "bedroom1": "Chambre 1",
+      "bedroom2": "Chambre 2",
+      "kitchen": "Cuisine",
+      "garden": "Jardin",
+      "swimmingpool": "Piscine",
+      "bathroom": "Salle de bain ",
+      "hall": "Couloir",
+      "terrace": "Terrasse"
+    },
+    "footer": {
+      "mode": {
+        "area": "Zone",
+        "type": "Type"
+      }
+    }
   }
 }

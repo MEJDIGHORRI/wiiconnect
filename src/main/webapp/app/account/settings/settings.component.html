@@ -1,6 +1,6 @@
-<div class="p-4 white">
+<div class="white">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 my-4 py-4">
             <h2 jhiTranslate="settings.title" [translateValues]="{ username: account.login }" *ngIf="account">User settings for [<b>{{ account.login }}</b>]</h2>
 
             <div class="alert alert-success" *ngIf="success" jhiTranslate="settings.messages.success">
